@@ -1,0 +1,56 @@
+/* Soap Bros design tokens. Mirrors tokens.json. Link the fonts first:
+   https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Press+Start+2P&family=IBM+Plex+Mono:wght@400;500;600&display=swap */
+:root {
+  --sb-ground: #F1EDE3;
+  --sb-paper: #FBF8F1;
+  --sb-ink: #141210;
+  --sb-muted: #5F584D;
+  --sb-line: #141210;
+  --sb-shadow: #141210;
+  --sb-duck: #F7C21A;
+  --sb-beak: #F08A1C;
+  --sb-bubble: #5EC3EF;
+  --sb-foam: #CFEEFB;
+  --sb-link: #0B6C96;
+  --sb-ok: #23703C;
+  --sb-warn: #A85A06;
+  --sb-no: #B3402E;
+  --sb-on-duck: #141210;
+
+  --sb-font-display: "Silkscreen", "Courier New", monospace;
+  --sb-font-arcade: "Press Start 2P", "Courier New", monospace;
+  --sb-font-body: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+  --sb-radius: 0;
+  --sb-border: 3px solid var(--sb-line);
+  --sb-elevation: 4px 4px 0 var(--sb-shadow);
+  --sb-elevation-lg: 8px 8px 0 var(--sb-shadow);
+  --sb-step: steps(2);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --sb-ground: #12161D; --sb-paper: #1A2029; --sb-ink: #ECE7DA; --sb-muted: #A2ABBA;
+    --sb-line: #8E99AE; --sb-shadow: #05070A; --sb-foam: #1C3A4B; --sb-link: #5EC3EF;
+    --sb-ok: #5FCF85; --sb-warn: #F08A1C; --sb-no: #F08A7A;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --sb-ground: #12161D; --sb-paper: #1A2029; --sb-ink: #ECE7DA; --sb-muted: #A2ABBA;
+  --sb-line: #8E99AE; --sb-shadow: #05070A; --sb-foam: #1C3A4B; --sb-link: #5EC3EF;
+  --sb-ok: #5FCF85; --sb-warn: #F08A1C; --sb-no: #F08A7A;
+  color-scheme: dark;
+}
+
+/* The two components everything else is built from. */
+.sb-panel { background: var(--sb-paper); border: var(--sb-border); box-shadow: var(--sb-elevation); }
+.sb-button {
+  font: 400 12px/1 var(--sb-font-arcade); padding: 16px 18px; color: var(--sb-on-duck);
+  background: var(--sb-duck); border: var(--sb-border); box-shadow: var(--sb-elevation);
+  transition: transform 80ms var(--sb-step), box-shadow 80ms var(--sb-step); cursor: pointer;
+}
+.sb-button:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--sb-shadow); }
+.sb-button:active { transform: translate(4px, 4px); box-shadow: 0 0 0 var(--sb-shadow); }
+.sb-button:focus-visible { outline: 4px solid var(--sb-bubble); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { .sb-button { transition: none; } }

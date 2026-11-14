@@ -1,0 +1,178 @@
+{
+  "ansible": {
+    "name": "Ansible",
+    "source": "soapbros.github.io"
+  },
+  "anthropic": {
+    "name": "Anthropic",
+    "source": "soapbros.github.io"
+  },
+  "argo-cd": {
+    "name": "Argo CD",
+    "source": "soapbros.github.io"
+  },
+  "aws": {
+    "name": "AWS",
+    "source": "soapbros.github.io"
+  },
+  "azure": {
+    "name": "Azure",
+    "source": "soapbros.github.io"
+  },
+  "azure-devops": {
+    "name": "Azure DevOps",
+    "source": "soapbros.github.io"
+  },
+  "backstage": {
+    "name": "Backstage",
+    "source": "soapbros.github.io"
+  },
+  "bash": {
+    "name": "Bash",
+    "source": "soapbros.github.io"
+  },
+  "ceph": {
+    "name": "Ceph",
+    "source": "Simple Icons 16.37.0"
+  },
+  "cilium": {
+    "name": "Cilium",
+    "source": "Simple Icons 16.37.0"
+  },
+  "databricks": {
+    "name": "Databricks",
+    "source": "soapbros.github.io"
+  },
+  "datadog": {
+    "name": "Datadog",
+    "source": "soapbros.github.io"
+  },
+  "delta-lake": {
+    "name": "Delta Lake",
+    "source": "soapbros.github.io"
+  },
+  "docker": {
+    "name": "Docker",
+    "source": "soapbros.github.io"
+  },
+  "envoyproxy": {
+    "name": "Envoy",
+    "source": "Simple Icons 16.37.0"
+  },
+  "flux": {
+    "name": "Flux",
+    "source": "soapbros.github.io"
+  },
+  "forgejo": {
+    "name": "Forgejo",
+    "source": "Simple Icons 16.37.0"
+  },
+  "github": {
+    "name": "GitHub",
+    "source": "soapbros.github.io"
+  },
+  "github-actions": {
+    "name": "GitHub Actions",
+    "source": "soapbros.github.io"
+  },
+  "gitlab": {
+    "name": "GitLab",
+    "source": "soapbros.github.io"
+  },
+  "go": {
+    "name": "Go",
+    "source": "soapbros.github.io"
+  },
+  "google-cloud": {
+    "name": "Google Cloud",
+    "source": "soapbros.github.io"
+  },
+  "grafana": {
+    "name": "Grafana",
+    "source": "soapbros.github.io"
+  },
+  "harbor": {
+    "name": "Harbor",
+    "source": "Simple Icons 16.37.0"
+  },
+  "helm": {
+    "name": "Helm",
+    "source": "soapbros.github.io"
+  },
+  "huawei": {
+    "name": "Huawei Cloud",
+    "source": "Simple Icons 16.37.0"
+  },
+  "keycloak": {
+    "name": "Keycloak",
+    "source": "Simple Icons 16.37.0"
+  },
+  "kubernetes": {
+    "name": "Kubernetes",
+    "source": "soapbros.github.io"
+  },
+  "linux": {
+    "name": "Linux",
+    "source": "soapbros.github.io"
+  },
+  "mlflow": {
+    "name": "MLflow",
+    "source": "soapbros.github.io"
+  },
+  "openbao": {
+    "name": "OpenBao",
+    "source": "Simple Icons 16.37.0"
+  },
+  "opentelemetry": {
+    "name": "OpenTelemetry",
+    "source": "soapbros.github.io"
+  },
+  "opentofu": {
+    "name": "OpenTofu",
+    "source": "soapbros.github.io"
+  },
+  "packer": {
+    "name": "Packer",
+    "source": "soapbros.github.io"
+  },
+  "postgresql": {
+    "name": "PostgreSQL",
+    "source": "Simple Icons 16.37.0"
+  },
+  "prometheus": {
+    "name": "Prometheus",
+    "source": "soapbros.github.io"
+  },
+  "proxmox": {
+    "name": "Proxmox VE",
+    "source": "Simple Icons 16.37.0"
+  },
+  "python": {
+    "name": "Python",
+    "source": "soapbros.github.io"
+  },
+  "sonarqube": {
+    "name": "SonarQube",
+    "source": "soapbros.github.io"
+  },
+  "spark": {
+    "name": "Spark",
+    "source": "soapbros.github.io"
+  },
+  "talos": {
+    "name": "Talos Linux",
+    "source": "Simple Icons 16.37.0"
+  },
+  "terraform": {
+    "name": "Terraform",
+    "source": "soapbros.github.io"
+  },
+  "trivy": {
+    "name": "Trivy",
+    "source": "soapbros.github.io"
+  },
+  "vault": {
+    "name": "Vault",
+    "source": "soapbros.github.io"
+  }
+}
